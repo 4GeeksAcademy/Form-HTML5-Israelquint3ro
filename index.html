@@ -34,61 +34,61 @@
             <div class="row ">
 
 
-                <div class="col-5 mt-3">
+                <div class="col-5 col-sm-6 col-md-8 col-lg-4 mt-3">
 
                     <label for="cardNumber" class="form-label">Card #</label>
                     <input type="text" class="form-control" id="cardNumber" aria-describedby="emailHelp"
-                        placeholder="xxxxxxxxxxxxxxxx">
+                        placeholder="xxxxxxxxxxxxxxxx" required>
                 </div>
 
 
-                <div class="col-3 mt-3">
+                <div class="col-3 col-sm-6 col-md-8 col-lg-4  mt-3">
 
                     <label for="CVC" class="form-label ">CVC #</label>
-                    <input type="text" class="form-control" id="CVC" aria-describedby="emailHelp" placeholder="0000">
+                    <input type="text" class="form-control" id="CVC" aria-describedby="emailHelp" placeholder="0000" required>
 
                 </div>
-                <div class="col-4 mt-3">
+                <div class="col-4 col-sm-6 col-md-8 col-lg-4 mt-3">
                     <label for="amount" class="form-label ">Amount</label>
                     <div class="d-flex">
                         <p><i class="fa-solid fa-dollar-sign"></i></p>
-                        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" required>
                     </div>
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-6">
+                <div class="col-6 col-sm-6 col-md-8 col-lg-4 ">
                     <label for="firstName" class="form-label ">First name</label>
-                    <input type="text" class="form-control" id="amount" aria-describedby="emailHelp" id="firstName">
+                    <input type="text" class="form-control" id="amount" aria-describedby="emailHelp" id="firstName" required>
                 </div>
-                <div class="col-6">
+                <div class="col-6 col-sm-6 col-md-8 col-lg-4 ">
                     <label for="lastName" class="form-label ">Last name</label>
-                    <input type="text" class="form-control" id="amount" aria-describedby="emailHelp" id="lastName">
+                    <input type="text" class="form-control" id="amount" aria-describedby="emailHelp" id="lastName" required>
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-6">
+                <div class="col-6 col-sm-6 col-md-8 col-lg-4">
                     <label for="city" class="form-label ">City</label>
-                    <input type="text" class="form-control" id="amount" aria-describedby="emailHelp" id="city">
+                    <input type="text" class="form-control" id="amount" aria-describedby="emailHelp" id="city" required>
                 </div>
-                <div class="col-3">
+                <div class="col-3 col-sm-6 col-md-8 col-lg-4 ">
                     <label for="state" class="form-label ">State</label>
-                    <input type="text" class="form-control" id="amount" aria-describedby="emailHelp" id="state">
+                    <input type="text" class="form-control" id="amount" aria-describedby="emailHelp" id="state" required>
                 </div>
 
-                <div class="col-3">
+                <div class="col-3 col-sm-6 col-md-8 col-lg-4 ">
                     <label for="postalCode" class="form-label ">Postal code</label>
-                    <input type="text" class="form-control" id="amount" aria-describedby="emailHelp" id="postalCode">
+                    <input type="text" class="form-control" id="amount" aria-describedby="emailHelp" id="postalCode" required>
                 </div>
             </div>
 
 
-            <div class="row mt-2 ">
-                <div class="col-6">
+            <div class="row mt-2  ">
+                <div class="col-6 ">
                     <div>
-                        <p> We acccept: </p>
+                        <p> We accept: </p>
                     </div>
                     <div class="bg-secondary d-inline-block rounded">
                         <div class="form-check form-check-inline   rounded ">
@@ -123,7 +123,7 @@
 
 
 
-                <div class="col-6 mb-4">
+                <div class="col-6  mb-4">
                     <label for="message" class="form-label ">Message</label>
                     <div class="form-floating">
                         <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
@@ -142,8 +142,8 @@
 
             <div class="row bg-secondary rounded">
                 <div class="col-12 d-flex justify-content-end mt-3 mb-3">
-                    <button type="button" class="btn btn-secondary me-2">Cancel</button>
-                    <button type="button" class="btn btn-primary">Send</button>
+                    <button type="reset" class="btn btn-secondary me-2">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Send</button>
 
 
                 </div>
